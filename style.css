@@ -1,0 +1,452 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+/* Header Start */
+#navbar {
+  background: url(./images/drew-coffman-1872.jpg) center center/cover no-repeat;
+  height: 100vh;
+  overflow: auto;
+}
+
+#navbar .nav {
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+}
+
+#navbar .logo {
+  display: inline-block;
+  width: 50%;
+}
+
+#navbar img {
+  width: 176.5px;
+  margin-left: 70px;
+}
+
+#navbar ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#navbar ul li a:hover {
+  color: #E0A74D;
+  border-top: 2px solid #E0A74D;
+}
+
+/* --------------------------- */
+header .content {
+  color: #fff;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 20px;
+}
+
+header .content p {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+header .content h1 {
+  font-size: 76px;
+}
+
+header .content .btn {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+header .content .btn .btn-1 {
+  background-color: #8E7754;
+  border-color: #8E7754;
+}
+
+header .content .btn .btn-1:hover {
+  background-color: #fff;
+  color: black;
+}
+
+header .content .btn .btn-2 {
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+
+header .content .btn .btn-2:hover {
+  background-color: #fff;
+  color: black;
+}
+
+header .content .btn a {
+  color: #fff;
+  padding: 15px 28px;
+  border: 1.6px solid #fff;
+  border-radius: 0.25rem;
+}
+
+/* About Start */
+#about {
+  width: 100%;
+}
+
+#about .about-img {
+  width: 48%;
+  display: inline-block;
+}
+
+#about .about-img img {
+  width: 95%;
+  margin-left: 25px;
+}
+
+#about .title {
+  width: 48%;
+  margin-top: 60px;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#about .title h2 {
+  font-size: 32px;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+#about .title p {
+  font-size: 17px;
+  color: #303030;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#about table img {
+  border: 1px solid rgb(125, 125, 125);
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#about table tr {
+  padding: 15px 0px 15px 56px;
+}
+
+/* About End */
+
+#about {
+  width: 100%;
+}
+
+#about .about-img {
+  width: 48%;
+  display: inline-block;
+}
+
+#about .about-img img {
+  width: 95%;
+  margin-left: 25px;
+}
+
+#about .title {
+  width: 48%;
+  margin-top: 60px;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#about .title h2 {
+  font-size: 32px;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+#about .title p {
+  font-size: 17px;
+  color: #303030;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#about table img {
+  border: 1px solid rgb(125, 125, 125);
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#about table tr {
+  padding: 15px 0px 15px 56px;
+}
+
+/* Location Start */
+#loc {
+  width: 100%;
+  background-color: #F8F8F8;
+}
+
+#loc .title {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+#loc .title h2 {
+  font-size: 32px;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+#loc .title p {
+  font-size: 17px;
+  color: #303030;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#loc .container-img {
+  display: inline-block;
+  width: 48%;
+}
+
+#loc .container-img img {
+  width: 95%;
+  margin-right: 25px;
+}
+
+/* Location End */
+
+/* Baking Start */
+#offers {
+  width: 100%;
+}
+
+#offers .title {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#offers .title h2 {
+  font-size: 30px;
+}
+
+#offers .title p {
+  font-size: 17px;
+}
+
+#offers .offers-items {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#offers .items {
+  margin-left: 44px;
+}
+
+#offers .item {
+  width: 31%;
+  float: left;
+  margin-right: 2%;
+}
+
+#offers .offers-items img {
+  width: 100%;
+  height: auto;
+}
+
+#offers .offers-items h4 {
+  font-size: 22px;
+}
+
+#offers .offers-items p {
+  font-size: 17px;
+  width: 90%;
+  margin-left: 30px;
+}
+
+/* Baking End */
+
+
+/*  Google Start */
+#map {
+  width: 100%;
+  background-color: #F8F8F8;
+}
+
+#map .title {
+  padding: 0 15px 0px 70px;
+  width: 48%;
+  float: left;
+}
+
+#map .title h2 {
+  font-size: 32px;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+#map .title p {
+  font-size: 17px;
+  color: #303030;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#map table img {
+  border: 1px solid #8E7754;
+  background-color: #8E7754;
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#map table tr {
+  padding: 15px 0px 15px 56px;
+}
+
+#map iframe {
+  margin-left: 30px;
+}
+
+/*  Location End */
+
+
+/* Footer Start */
+#footer {
+  background-color: #403D38;
+  overflow: hidden;
+}
+
+#footer .item {
+  width: 22%;
+  float: left;
+  padding: 0 20px;
+}
+
+#footer h4 {
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+#footer p {
+  margin-bottom: 24px;
+}
+
+#footer ul {
+  padding-left: 0;
+}
+
+#footer p,
+#footer ul {
+  color: #969696;
+}
+
+#footer ul img {
+  width: 25px;
+}
+
+#footer li {
+  border-bottom: 1px solid #fff;
+  margin-top: 10px;
+}
+
+/* Footer End */
+
+
+
+/* Contact us Start */
+.contact-us {
+  width: 100%;
+  background-color: #353330;
+}
+
+.contact-us .container {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.contact-us p {
+  color: #777;
+}
+
+.contact-us ul {
+  padding: 30px;
+  display: inline-block;
+}
+
+.contact-us ul li {
+  width: 50px;
+  height: 50px;
+  background-color: #484540;
+  margin-right: 10px;
+  border: 1px solid #484540;
+  border-radius: 50%;
+  float: left;
+  /* استخدام float بدلاً من inline-block */
+}
+
+.contact-us ul img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-us ul .facebook img:hover {
+  background-color: #3B5998;
+  border-radius: 50%;
+}
+
+.contact-us ul .google img:hover {
+  background-color: #DD4B39;
+  border-radius: 50%;
+}
+
+.contact-us ul .linkedin img:hover {
+  background-color: #007BB5;
+  border-radius: 50%;
+}
+
+.contact-us ul .twitter img:hover {
+  background-color: #00ACED;
+  border-radius: 50%;
+}
